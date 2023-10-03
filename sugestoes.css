@@ -1,0 +1,60 @@
+main, section {
+    width: 60%;
+    text-align: inherit;
+    padding: 20px 200px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: flex;
+    gap: 4px;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+input, textarea {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+    padding: 0 8px;
+    height: 25px;
+    width: 300px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #5cfc8c;
+    color: #191716;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b8145;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+span{
+    display: block;
+    height: 37px;
+}

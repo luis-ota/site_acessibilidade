@@ -1,0 +1,64 @@
+main {
+  padding: 40px 125px;
+}
+
+.cards{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    gap: 16px;
+}
+
+.card-list{
+  gap: 16px;
+}
+
+.card {
+    font-size: 16px;
+    width: 300px; /* Define a largura do card */
+    height: 400px; /* Define a altura do card */
+    border: 5px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center; 
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    text-align: justify;
+    gap: inherit;
+    font-size: 16px;
+
+   }
+
+main section div a:hover {
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    font-weight: bold;
+    border: 5px solid green;
+    border-radius: 5px;
+  }
+    
+
+    
+    .card img {
+    width: 150px; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+    height: 150px; /* Define a altura da imagem */
+    object-fit: cover; /* Redimensiona a imagem para preencher a área, mantendo a proporção */
+    border-radius: 5px;
+    }
+    
+    .foto {
+      width: 300px; /* Define a largura do card */
+      height: 400px; /* Define a altura do card */
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      display: inline-block; /* Exibe os cards em linha */
+    }
+
+

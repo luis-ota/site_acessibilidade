@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+    width: 60%;
+    text-align: inherit;
+    padding: 20px 200px;
+    flex-direction: column;
+    gap: 22px;
+
+}
+

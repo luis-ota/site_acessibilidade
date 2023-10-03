@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    overflow: hidden;
+    padding: 35px 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5cfc8c;
+    font-size: 20px;
+    gap: 50px;
+    position: relative;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+header a:hover {
+    color: #000000;
+    border-style: solid;
+    border-radius: 4px;
+
+}
+
+.nav-lateral{
+    background-color: #5cfc8ca0;
+    width: 130px;
+    padding: 30px;
+    
+}
+
+
+nav {
+    width: max-content;
+
+}
+
+nav h2 { 
+    padding-left: 8px;
+}
+
+nav h3{
+    font-size: 25px;
+}
+
+nav ul {
+    margin-top: 8px;
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+nav ul li {
+    list-style: none;
+        font-weight: 500;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+nav ul li a:hover {
+    color: #000000;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+nav ul li a.pagina-atual {
+    font-weight: 750;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+
+
+main img{
+
+    width: 150px; /* Ajusta a largura da imagem para ocupar todo o espaço disponível */
+    height: 150px; /* Define a altura da imagem */
+    object-fit: cover; /* Redimensiona a imagem para preencher a área, mantendo a proporção */
+    border-radius: 5px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+
+footer{
+    background-color: #a5aaa3;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
