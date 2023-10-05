@@ -1,3 +1,5 @@
 site: https://luis-ota.github.io/site_acessibilidade/
 
 repositorio: https://github.com/luis-ota/site_acessibilidade
+
+quebrei a cabeça pra deixar responsivo e desisti

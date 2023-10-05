@@ -35,6 +35,8 @@ header a:hover {
     background-color: #5cfc8ca0;
     width: 130px;
     padding: 30px;
+    position: fixed;
+    height: -webkit-fill-available;
     
 }
 
@@ -110,4 +112,8 @@ footer{
     width: 100%;
     text-align: center;
     position: fixed;
+}
+
+span{
+    height: inherit;
 }
